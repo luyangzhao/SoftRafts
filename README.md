@@ -3,6 +3,14 @@
 ## 🚀 Overview  
 In this work, we introduce a variable-stiffness soft modular robot that integrates rigid 3D-printed components, soft foam, a cable-driven actuation mechanism, and a propeller for aquatic propulsion. Permanent magnets enable fast, passive inter-module connections. This robot can **bend, steer, and connect** with others, supporting a variety of functions. It acts as a gripper to **retrieve debris** from water surfaces, assembles into a **floating raft** for drone landings, and forms a **snake-like chain** that transitions seamlessly between land and water. Additionally, multiple robots can **collaborate** in swarm-like behaviors to transport payloads. Our findings demonstrate that combining soft deformation with modularity enables a multifunctional robotic platform capable of navigating and interacting in complex, aquatic environments.
 
+---
+
+## 📦 Open-Source Resources  
+This repository provides **open-source resources**, including:  
+✅ **Shape_Changing_Boat** for the Shape Changing Boat functions.  
+✅ **Control Program.ipynb** for the control codes.  
+
+---
 
 ## Help Desk
 
