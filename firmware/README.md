@@ -1,6 +1,6 @@
 # 📡 SoftRafts Firmware
 
-This folder contains the Arduino-based firmware (`firmware_softrafts.ino`) for the **ESP32** microcontroller onboard each SoftRaft module. It enables real-time wireless control of motors, position feedback via encoders, and OTA (Over-the-Air) firmware updates.
+This folder contains the Arduino-based firmware (`firmware_softrafts.ino`) for the **ESP32-S2** microcontroller onboard each SoftRaft module. It enables real-time wireless control of motors, position feedback via encoders, and OTA (Over-the-Air) firmware updates.
 
 ---
 
@@ -47,21 +47,21 @@ sets:
 
 ## 📶 Wi-Fi Setup
 
-The ESP32 connects to:
+The ESP32-S2 connects to:
 
 * **SSID**: `BotTest`
 * **Password**: `123456789`
 
 You can modify these at the top of `firmware_softrafts.ino`.
 
-Once connected, the ESP32 prints its IP address and MAC address over serial.
+Once connected, the ESP32-S2 prints its IP address and MAC address over serial.
 
 ---
 
 ## ⚙️ Flashing Instructions
 
 1. Open `firmware_softrafts.ino` in the Arduino IDE
-2. Select **ESP32 Dev Module** as the board
+2. Select **ESP32S2 Dev Module** as the board
 3. Install required libraries:
 
    * `WiFi.h` (default with ESP32 core)
