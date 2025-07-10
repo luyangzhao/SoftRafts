@@ -21,7 +21,7 @@ SoftRafts/
 ├── CAD/                    # STL models for physical modules
 │   └── softraft.png        # Render of full assembled raft
 │
-├── firmware/               # Microcontroller firmware for ESP32
+├── firmware/               # Microcontroller firmware for ESP32-S2
 │   └── firmware_softrafts.ino
 │
 ├── software/               # Control and behavior logic in Jupyter
