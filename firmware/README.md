@@ -1,7 +1,3 @@
-Here's a `README.md` tailored for your `firmware/` folder:
-
----
-
 # 📡 SoftRafts Firmware
 
 This folder contains the Arduino-based firmware (`firmware_softrafts.ino`) for the **ESP32** microcontroller onboard each SoftRaft module. It enables real-time wireless control of motors, position feedback via encoders, and OTA (Over-the-Air) firmware updates.
@@ -92,7 +88,3 @@ Once connected to Wi-Fi, you can push firmware updates wirelessly using ArduinoO
 ## 📜 License
 
 This firmware is released under the [MIT License](../LICENSE).
-
----
-
-Let me know if you'd like a circuit diagram or pinout chart added.
