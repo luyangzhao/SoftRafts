@@ -57,7 +57,7 @@ Located in the `firmware/` folder, `firmware_softrafts.ino` is the ESP32 control
 * Encoder-based position feedback and calibration
 * REST-style HTTP commands for live control (`/set`, `/status`, `/pause`, etc.)
 
-> Flash using the Arduino IDE with ESP32 board selected.
+> Flash using the Arduino IDE with the ESP32 board selected.
 
 ---
 
