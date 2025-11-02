@@ -6,7 +6,7 @@ This folder contains the Arduino-based firmware (`firmware_softrafts.ino`) for t
 
 ## 🔌 Features
 
-* ✅ Controls **3 motors** (2 linear actuators, 1 propulsion)
+* ✅ Controls **3 motors** (2 motor actuators, 1 propulsion)
 * ✅ Reads **quadrature encoders** for M1 and M2
 * ✅ Supports **position control**, **power modulation**, and **direction switching**
 * ✅ Hosts a **web server** on port `80` for HTTP-based control
@@ -54,20 +54,19 @@ The ESP32-S2 connects to:
 
 You can modify these at the top of `firmware_softrafts.ino`.
 
-Once connected, the ESP32-S2 prints its IP address and MAC address over serial.
+Once connected, you can check the IP address and MAC address over your router portal.
 
 ---
 
-## ⚙️ Flashing Instructions
+## ⚙️ First Time Flashing Instructions
 
 1. Open `firmware_softrafts.ino` in the Arduino IDE
 2. Select **ESP32S2 Dev Module** as the board
-3. Install required libraries:
+3. Install required library:
 
-   * `WiFi.h` (default with ESP32 core)
    * `ArduinoOTA.h`
-4. Connect the ESP32 via USB and upload
-5. After upload, monitor via serial at 115200 baud to confirm Wi-Fi and OTA readiness
+4. Connect the ESP32-S2 via USB and upload
+5. After upload, monitor via serial to confirm Wi-Fi and OTA readiness
 
 ---
 
@@ -81,7 +80,6 @@ Once connected to Wi-Fi, you can push firmware updates wirelessly using ArduinoO
 
 * Ensure your router allows devices to connect over 2.4GHz Wi-Fi.
 * Use Serial Monitor to debug IP address and errors.
-* Confirm the motor driver pins are correctly wired as per your PCB design.
 
 ---
 
