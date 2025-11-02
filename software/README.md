@@ -60,6 +60,20 @@ It provides a fully reproducible pipeline from raw measurements to the final fig
 
 ---
 
+### `workspace/`
+
+A **MATLAB** subfolder containing scripts for structural and workspace analysis of SoftRafts.  
+Run **`MAIN_space.m`** to compute and visualize the robot’s workspace and deformation behavior under different prestress configurations.
+
+📐 **Highlights**:
+* Implements tensegrity equilibrium and stiffness matrix calculations  
+* Visualizes deformation, workspace boundaries, and adaptation strategies  
+* Includes supporting MATLAB functions for prestress design and plotting  
+
+> 💡 Tested with MATLAB R2023a; requires the Optimization Toolbox.
+
+---
+
 ## 🧰 Setup
 
 Create a virtual environment and install dependencies:
