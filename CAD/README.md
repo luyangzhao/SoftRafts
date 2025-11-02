@@ -30,7 +30,7 @@ This folder contains **3D models** for all key components of **SoftRafts**, supp
 ### **1️⃣ Whole Assembly (`Whole_SoftRaft.stl`)**
 
 * Fully assembled reference model combining all modules.
-* Use for **scale check, visualization**, or single-print prototypes.
+* Use for **scale check, visualization** prototypes.
 
 ---
 
@@ -55,7 +55,7 @@ This folder contains **3D models** for all key components of **SoftRafts**, supp
 
 **🔧 General Printing Guidelines for All Parts:**
 
-* **Material**: PLA or PETG for general use; ABS or ASA or Resin for waterproof versions
+* **Material**: PLA or PETG for general use; Resin for waterproof versions
 * **Layer Height**: 0.15–0.2 mm
 * **Supports**: Enabled for overhangs (e.g., motor housing)
 
