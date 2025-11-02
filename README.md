@@ -70,7 +70,7 @@ Located in the `firmware/` folder, `firmware_softrafts.ino` is the control firmw
 * Encoder-based position feedback and calibration  
 * REST-style HTTP commands for live control (`/set`, `/status`, `/pause`, etc.)
 
-> Upload via the **Arduino IDE** with the ESP32 board selected.
+> Upload via the **Arduino IDE** with the ESP32-S2 board selected.
 
 ---
 
