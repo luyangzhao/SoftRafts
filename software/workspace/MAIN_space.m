@@ -2,7 +2,7 @@
 % Note: Full rest length change use column 12
 %       Half rest length change use column 13
 
-clear; close all; clc;
+clear; close all; clc;warning off;
 %%
 complexity = 1;
 [N,C_b,C_s] = modular_box(complexity);
